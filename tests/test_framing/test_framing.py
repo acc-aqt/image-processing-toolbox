@@ -1,7 +1,7 @@
 """Testcases for resizing.py go here."""
 
 import os
-from src.framing.framing import add_frame, Colors
+from framing.framing import add_frame, Colors
 
 current_module_path = os.path.dirname(__file__)
 example_image = os.path.join(current_module_path, "../example_image.jpg")
